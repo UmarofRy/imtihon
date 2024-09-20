@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    font-family: "Quantico", sans-serif;
+}
+
+header {
+    box-shadow: 0px 0px 10px 10px #00000080;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    background: #272C3D;
+}
+
+input {
+    border: none;
+    width: 241.87px;
+    height: 30px;
+    border-radius: 5px;
+    background: #404864;
+}
+
+a {
+    color: aliceblue;
+    text-decoration: none;
+    transition: all 0.5s linear;
+}
+
+a:hover {
+    color: #FF9C28;
+}
+
+nav {
+    width: 600px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.chap {
+    width: 460px;
+    display: flex;
+    justify-content: space-between;
+}
+
+input:focus {
+    border: 4px solid #FF9C28;
+}
+
+select {
+    border-radius: 3px;
+    color: #FFFFFFCC;
+    border: none;
+    width: 165.49px;
+    height: 30px;
+    background: #00000080;
+}
+
+.box {
+    background-image: url('./Bg.png');
+    height: 650px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.bosh {
+    color: aliceblue;
+    position: absolute;
+    font-size: 52px;
+    font-weight: 500;
+    line-height: 45.76px;
+    left: 550px;
+}
+
+.box2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 399px;
+    background-color: black;
+}
+
+p {
+    color: aliceblue;
+}
+
+main {
+    margin: auto;
+    width: 1450px;
+    height: 928px;
+    background: #1B1E27;
+}
+
+.left {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 760px;
+    height: 298px;
+}
+
+.right {
+    width: 740px;
+    height: 298px;
+}
+
+.paragrf {
+    width: 323px;
+    height: 234px;
+}
+
+.oyoq {
+    padding-top: 61px;
+    color: aliceblue;
+    font-size: 34px;
+    font-weight: 400;
+    text-align: left;
+    margin-left: 350px;
+}
+
+.oyoqq {
+    padding-top: 141px;
+    color: aliceblue;
+    font-size: 34px;
+    font-weight: 400;
+    text-align: left;
+    margin-left: 350px;
+}
+
+footer {
+    background: #272C3D;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.salomlar {
+    padding-left: 47px;
+}
+
+.alar {
+    padding-right: 40px;
+    display: flex;
+    justify-content: space-around;
+    width: 500px;
+    align-items: center;
+}
+
+.qidir {
+    position: relative;
+    left: 250px;
+}
